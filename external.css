@@ -1,0 +1,182 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.maindiv {
+  display: flex;
+}
+.main2 {
+  display: flex;
+  margin: 30px;
+}
+.bg {
+  background-image: url(./Photos/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.order {
+  height: 230px;
+  width: 300px;
+  background-color: white;
+  border: 2px black solid;
+  margin: 10px;
+  margin-left: 15%;
+  top: 10px;
+  border-radius: 10px;
+}
+.ordimg {
+  height: 140px;
+  width: 290px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.order:hover {
+  transform: scale(1.05);
+}
+
+.dinning {
+  height: 230px;
+  width: 300px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 10px;
+  top: 620px;
+  border-radius: 10px;
+}
+.dinnimg {
+  height: 140px;
+  width: 290px;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dinning:hover {
+  transform: scale(1.05);
+}
+
+.live {
+  height: 230px;
+  width: 300px;
+  background-color: WHITE;
+  border: 2px solid black;
+  margin: 10px;
+  top: 620px;
+  border-radius: 10px;
+}
+.liveimg {
+  height: 140px;
+  width: 290px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+}
+.live:hover {
+  transform: scale(1.05);
+}
+
+.location {
+  margin-left: 292px;
+  position: absolute;
+  margin-top: -100px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: bisque;
+}
+#count {
+  height: 40px;
+  width: 200px;
+  border: 2px solid black;
+  font-size: 20px;
+}
+
+#search {
+  height: 36px;
+  width: 450px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+.searching {
+  margin-left: 620px;
+  margin-top: -100px;
+  position: absolute;
+}
+.zomato {
+  font-size: 60px;
+  color: rgba(26, 84, 84, 0.787);
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 500px;
+}
+.text {
+  font-size: 38px;
+  color: black;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -300px;
+}
+.coll {
+  margin-top: 45px;
+  margin-left: 200px;
+}
+.text2 {
+  margin-left: 200px;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.restaurants {
+  height: 350px;
+  width: 300px;
+  margin-left: 150px;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 100px;
+}
+.restaurantsimg {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.restaurants:hover {
+  transform: scale(1.05);
+}
+
+.new {
+  height: 350px;
+  width: 300px;
+  margin-left: 530px;
+  margin-top: 100px;
+  border-radius: 10px;
+  position: absolute;
+}
+.newimg {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.new:hover {
+  transform: scale(1.05);
+}
+
+.rooftops {
+  height: 350px;
+  width: 300px;
+  margin-left: 900px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.roofimg {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.rooftops:hover {
+  transform: scale(1.05);
+}
